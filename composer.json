@@ -1,0 +1,24 @@
+{
+    "name": "midorikocak/ctci-php",
+    "description": "php solutions of cracking the code interview using php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Midori Kocak",
+            "email": "mtkocak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MidoriKocak\\": "src/"
+        },
+        "psr-0": {
+            "MidoriKocakTest\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.1@dev"
+    }
+}
