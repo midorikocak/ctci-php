@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "MidoriKocak\\": "src/"
+            "MidoriKocak\\": "src/",
+            "Introduction\\":"src/Introduction"
         },
         "psr-0": {
             "MidoriKocakTest\\": "tests/"
