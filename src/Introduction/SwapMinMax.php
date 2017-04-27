@@ -2,7 +2,6 @@
 
 namespace Introduction;
 
-
 class SwapMinMax
 {
     /**
@@ -161,6 +160,4 @@ class SwapMinMax
         $array[$minIndex] = $array[$maxIndex];
         $array[$maxIndex] = $temp;
     }
-
-
 }

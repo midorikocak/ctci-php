@@ -2,7 +2,6 @@
 
 namespace CTCILibrary;
 
-
 class AssortedMethods
 {
     public static function randomInt(int $number): int

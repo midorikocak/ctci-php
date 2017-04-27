@@ -13,7 +13,9 @@
     "autoload": {
         "psr-4": {
             "MidoriKocak\\": "src/",
-            "Introduction\\":"src/Introduction"
+            "CTCILibrary\\":"src/CTCILibrary",
+            "Introduction\\":"src/Introduction",
+            "Chapter02\\Question2_5\\":"src/Chapter02/Question2_5"
         },
         "psr-0": {
             "MidoriKocakTest\\": "tests/"
