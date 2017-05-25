@@ -18,7 +18,6 @@ class AssortedMethods
     public static function randomBoolean($percentTrue = null): bool
     {
         if (isset($percentTrue)) {
-
             return self::randomIntInRange(0, 100) < $percentTrue;
         }
         return self::randomIntInRange(0, 1) == 0;

@@ -71,7 +71,7 @@ class Question
         $char = strtolower($char);
 
         if (strlen($char) != 1) {
-            // throw new \InvalidArgumentException('Char chould be one letter.');
+            // throw new \InvalidArgumentException('Char should be one letter.');
             return -1;
         }
         $ord = ord($char);
