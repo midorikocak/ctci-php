@@ -27,7 +27,11 @@
             "Chapter02\\Question2_1\\":"src/Chapter02/Question2_1",
             "Chapter02\\Question2_2\\":"src/Chapter02/Question2_2",
             "Chapter02\\Question2_3\\":"src/Chapter02/Question2_3",
-            "Chapter02\\Question2_5\\":"src/Chapter02/Question2_5"
+            "Chapter02\\Question2_4\\":"src/Chapter02/Question2_4",
+            "Chapter02\\Question2_5\\":"src/Chapter02/Question2_5",
+            "Chapter02\\Question2_6\\":"src/Chapter02/Question2_6",
+            "Chapter02\\Question2_7\\":"src/Chapter02/Question2_7",
+            "Chapter02\\Question2_8\\":"src/Chapter02/Question2_8"
         },
         "psr-0": {
             "MidoriKocakTest\\": "tests/"

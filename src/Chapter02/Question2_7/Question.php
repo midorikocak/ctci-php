@@ -1,6 +1,6 @@
 <?php
 
-namespace Chapter01\Question1_1;
+namespace Chapter02\Question2_7;
 
 
 use CTCILibrary\LinkedListNode;
@@ -22,9 +22,9 @@ class Question
      */
     public static function findIntersection(LinkedListNode $list1, LinkedListNode $list2): LinkedListNode
     {
-
+        // if we use == this line returns nesting level to deep fatal error
         // Check if lists are null (can't be null with parameter type), empty, one size
-        if ($list1 == $list2) {
+        if ($list1->data === $list2->data) {
             return $list1;
         }
 
@@ -47,7 +47,7 @@ class Question
         }
 
         while ($shorter && $longer) {
-            if ($shorter == $longer) {
+            if ($shorter === $longer) {
                 return $shorter;
             }
             $shorter = $shorter->next;

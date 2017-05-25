@@ -20,7 +20,7 @@ class Question
         while ($slow && $fast->next) {
             $slow = $slow->next;
             $fast = $fast->next->next;
-            if ($slow == $fast) {
+            if ($slow === $fast) {
                 break;
             }
         }
@@ -34,7 +34,7 @@ class Question
         // advance both pointers by one step
         // when they collide, intersecting item found
         $slow = $head;
-        while ($slow != $fast) {
+        while ($slow !== $fast) {
             $slow = $slow->next;
             $fast = $fast->next;
         }

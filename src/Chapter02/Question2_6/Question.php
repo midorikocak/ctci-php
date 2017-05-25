@@ -9,6 +9,7 @@ class Question
 {
     public static function isPalindrome(LinkedListNode $head): bool
     {
+        $stack = [];
         // Go till to the end count the number, find the middle
         $fast = $head;
         $slow = $head;
