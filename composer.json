@@ -31,7 +31,8 @@
             "Chapter02\\Question2_5\\":"src/Chapter02/Question2_5",
             "Chapter02\\Question2_6\\":"src/Chapter02/Question2_6",
             "Chapter02\\Question2_7\\":"src/Chapter02/Question2_7",
-            "Chapter02\\Question2_8\\":"src/Chapter02/Question2_8"
+            "Chapter02\\Question2_8\\":"src/Chapter02/Question2_8",
+            "Chapter03\\Question3_1\\":"src/Chapter03/Question3_1"
         },
         "psr-0": {
             "MidoriKocakTest\\": "tests/"
