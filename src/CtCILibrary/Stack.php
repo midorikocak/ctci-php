@@ -14,7 +14,7 @@ class Stack
      *
      * @var int[]
      */
-    private $stack;
+    protected $stack;
 
     public function __construct()
     {
